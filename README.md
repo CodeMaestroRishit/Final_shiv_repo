@@ -36,15 +36,4 @@ Our system allows:
 -   **Web Interface**: Open `http://localhost:8000` to record your voice.
 -   **API**: Run `python test_api.py` for detailed diagnostics.
 
-## 📊 Diagnostics Example
-The API explains *why* it made a decision:
-```json
-{
-  "classification": "AI",
-  "confidence": 0.86,
-  "heuristics": {
-    "pitch_jitter": 11.6, // Too high for human, rejected
-    "smoothness": 0.98    // Too smooth, robotic
-  }
-}
-```
+
